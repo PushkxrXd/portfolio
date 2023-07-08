@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-rendering: geometricPrecision;
+    margin-top: 110px;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

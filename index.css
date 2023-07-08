@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+
+#wraper {
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-image: url(wallhaven-e7dwmr.jpg) ;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2%;
+    margin-right: 4%;
+    padding-top: 2rem;
+    cursor: pointer;
+    
+}
+.nav-item div a{
+    color: #fff;
+    text-decoration:none;
+}
+
+.mid-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content:flex-start;
+    padding-top: 116px;
+    padding-left: 16rem;
+    font-weight:3.5rem;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.dis{
+    margin-top: 1rem;
+    width: 70%;
+    font-weight:bold;
+    color: white;
+    font-family:  firamonobold;
+}
+
+
+
+.footer-nav{
+    border-top: 2px solid white;
+    max-width: 750px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.contact{
+    border-bottom: 3px solid aqua;
+}
+
+
+.footer-nav div a{
+    color: #fff;
+    text-decoration:none;
+}
+
+
+.must-read{
+    color: #fff;
+    text-align: center;
+   width: 603px;
+   margin-top: 77px;
+   margin-left: 750px;
+   font-weight:1.5rem;
+   font-size: xx-small;
+   
+}
