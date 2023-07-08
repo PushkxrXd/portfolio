@@ -13,6 +13,8 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
     background-image: url(wallhaven-e7dwmr.jpg) ;
+    background-repeat:no-repeat;
+     background-size: 2115px;
 }
 
 .nav-item {
